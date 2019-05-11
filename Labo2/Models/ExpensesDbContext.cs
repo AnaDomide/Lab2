@@ -14,6 +14,6 @@ namespace Labo2.Models
         }
 
         public DbSet<Expense> Expenses { get; set; }
-        public List<Comment> Comments { get; set; }
+        public DbSet<Comment> Comments { get; set; }
     }
 }
